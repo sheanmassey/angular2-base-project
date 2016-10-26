@@ -3,7 +3,7 @@ import {BrowserModule} from '@angular/platform-browser'
 import {RouterModule} from '@angular/router'
 
 import {AppComponent} from './component'
-import {HomeComponent} from '../home.component'
+import {HomeComponent} from '../components/home.component'
 
 
 // import * as d3 from 'd3'
