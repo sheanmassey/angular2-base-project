@@ -1,0 +1,48 @@
+{
+  "name": "basic angular 2.1.0 setup (with some extras)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
+    "@types/c3": "0.0.35",
+    "angular-in-memory-web-api": "~0.1.5",
+    "bootstrap": "^3.3.7",
+    "c3": "^0.4.11",
+    "core-js": "^2.4.1",
+    "d3": "^3.5.17",
+    "es6-promise": "^3.2.1",
+    "es6-shim": "^0.35.1",
+    "font-awesome": "^4.6.3",
+    "jquery": "^2.2.3",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "@types/c3": "0.0.35",
+    "@types/core-js": "^0.9.34",
+    "@types/d3": "^3.5.36",
+    "@types/es6-shim": "^0.31.32",
+    "@types/node": "^6.0.45",
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
+  }
+}
